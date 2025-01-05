@@ -1,7 +1,7 @@
 const bcrypt = require('bcrypt');
 const db = require('../Models/db');
 
-// Register User
+// Register User//
 registerUser = (req, res) => {
   const {User_Id, Name, Email, Password } = req.body;
 
@@ -24,7 +24,7 @@ registerUser = (req, res) => {
   //}
 //};
 
-// Login User
+// Login User//
 loginUser = (req, res) => {
   const { Email, Password } = req.body;
 

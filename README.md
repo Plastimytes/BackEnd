@@ -6,4 +6,4 @@ API requests are placed in a single folder all on their own.
 
 The controllers and routes manage how information is accessed from the database
 
-A .env file connects the database to the backend 
+A .env file connects the database to the backend.
